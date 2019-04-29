@@ -8,11 +8,11 @@ The second file `PROG2.ASM` contains some code, however its function is to set u
 
 The third file `PROG3.ASM` is a working programme which increments an 8-bit binary number displayed on LEDs.
 
-The fourth file `PROG4.ASM` develops PROG3 by including a button to control up or down counting on the LEDs.
+The fourth file `PROG4.ASM` develops `PROG3` by including a button to control up or down counting on the LEDs.
 
 Before assembling and running the programmes, a Code Warrrior project must be constructed.
 
-Click on the Code Warrior icon, and select "new project" on the wizard. Answer the questions "processor AW60"; "P&E"; "absolute assembly". These steps will be explained in more detail in class.
+Click on the Code Warrior icon, and select "new project" on the wizard. Answer the questions "**processor AW60**"; "**P&E**"; "**absolute assembly**". These steps will be explained in more detail in class.
 
 Exit from the Code Warrior programme.
 
