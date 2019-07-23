@@ -11,15 +11,15 @@ PTAD		EQU	$0000			;Port A data register
 PTADD		EQU	$0001			;Port A DDR
 PTBD		EQU	$0002			;Port B data register
 PTBDD		EQU	$0003			;Port B DDR
-PTFD    EQU $000A     ;Port F data register
-PTFDD   EQU $000B     ;Port F DDR
+PTFD        EQU $000A           ;Port F data register
+PTFDD       EQU $000B           ;Port F DDR
 
-ICGC1   EQU $0048     ;Control for system clock
-ICGC2   EQU $0049     ;Control for system clock
+ICGC1       EQU $0048           ;Control for system clock
+ICGC2       EQU $0049           ;Control for system clock
 
 
 SOPT1		EQU	$1802			;Misc controls inc COP
-PTAPE   EQU $1840     ;Pull ups for port A
+PTAPE       EQU $1840           ;Pull ups for port A
 
 
 ;***************************************************************************************
@@ -27,7 +27,7 @@ PTAPE   EQU $1840     ;Pull ups for port A
 
 VARIABLES	EQU	$0080			;Start address in RAM for variables
 PROGRAMME	EQU	$8000			;start address in ROM for programme
-STACK			EQU	$0100			;Start address for the top of the stack
+STACK		EQU	$0100			;Start address for the top of the stack 
 VECTORS		EQU	$FFFE			;Start address for reset vector
 
 
@@ -44,26 +44,26 @@ COUNTER		RMB	1			;this byte contains the running count
 
 ;***************************************************************************************
 
-		ORG	PROGRAMME				;Set the programme counter
+		ORG	PROGRAMME			;Set the programme counter
 START
 
-		LDHX	#STACK				;Set the stack pointer
+		LDHX	#STACK			;Set the stack pointer
 		TXS
 
-		LDA     SOPT1				;Turn off the watchdog
+		LDA     SOPT1			;Turn off the watchdog
 		AND     #%01111111
 		ORA     #%00000001
 		STA	SOPT1
 
 
-		LDA     #%01110100  ;Select external crystal
+		LDA     #%01110100      ;Select external crystal
 		STA     ICGC1
-
+		
 
 		JSR	SHORT_DELAY			;Start up delay for crystal
 
 
-		LDA     #%11111111  ;Set all the pins of port F as outputs
+		LDA     #%11111111      ;Set all the pins of port F as outputs
 		STA     PTFDD
 
 ;***************************************************************************************
@@ -78,11 +78,11 @@ START
 		CLR	COUNTER			;Initial value of variable COUNTER = 0
 COUNT_LOOP
 		LDA	COUNTER			;Load the current value of COUNTER
-		STA	PTFD				;Send it to Port F data register
+		STA	PTFD			;Send it to Port F data register
 		INC	COUNTER			;Increment the variable COUNTER (mod 256)
-		JSR	SHORT_DELAY	;A short delay to make counting visible
+		JSR	SHORT_DELAY		;A short delay to make counting visible
 
-		BRA	COUNT_LOOP	;Repeat for ever
+		BRA	COUNT_LOOP		;Repeat for ever
 
 ;**************************************************************************************
 ;... and that is the end of the application programme.
@@ -96,18 +96,18 @@ COUNT_LOOP
 
 SHORT_DELAY
 		LDA	#$40			;Multiplier for delay
-		STA	COUNT1		;Store the multiplier in COUNT1
-		CLR	COUNT0		;Set the inner loop counter to zero
+		STA	COUNT1			;Store the multiplier in COUNT1
+		CLR	COUNT0			;Set the inner loop counter to zero
 DEL1
-		DEC	COUNT0		;Decrement the inner loop counter
-		NOP						;This instruction does nothing
+		DEC	COUNT0			;Decrement the inner loop counter
+		NOP					;This instruction does nothing
 		BNE	DEL1			;Has the inner loop reached zero yet?
-    DEC	COUNT1		;If not, back to the label DEL1
+       		DEC	COUNT1		;If not, back to the label DEL1
 		BNE	DEL1			;Otherwise decrement the outer loop
 		RTS					;counter and then back to label DEL1
 
 
-;**************************************************************************************
+;**************************************************************************************		
 
 
 		ORG	VECTORS
