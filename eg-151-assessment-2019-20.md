@@ -45,7 +45,7 @@ The lecture course and the laboratory work will be assessed by a computer-based 
 
 ### Miniproject
 
-You will use the knowledge gained in the lectures and lab work to develop a electronic measurement device with an external sensor for input, signal processing in the microcontroller and output of results via an LED display. The Mini-project will be assessed by a demonstration of the completed project and a short report.
+You will use the knowledge gained in the lectures and lab work to develop an electronic measurement device with an external sensor for input, signal processing in the microcontroller and output of results via an LED display. The Mini-project will be assessed by a demonstration of the completed project and a short report.
 
 ----
 
@@ -69,11 +69,12 @@ After completing this module you should be able to:
 
 ## Types of assessment
 
-| **Assessment** -> |  Practical | Laboratory | Mini-Project | Class Test 1 |
+| **Assessment** -> |  Laboratory Introduction (PRAC) | Laboratory (LAB) | Mini-Project (PROJ) | Class Test 1 (CT1) |
 |-------------------|------------|------------|--------------|--------------|
 | *Type* | Individual | Pair | Group | Individual |
 | *Weighting* |  15% | 20% | 35% | 30% |
 | *Learning Outcomes* | LO1-LO3 | LO6, LO7 | LO8 | L04, L05 |
+| *Start Date*        | 23 September 2019 | 21 October 2019 | 18 November 2019 | 25 November 2019 |
 | *Submission Date* | 17 October 2019 | 24 Oct-21 November | 9th and 12th December | 5th December |
 | *Feedback Type* | Oral | Oral | Oral and Written | Electronic |
 | *Feedback Date* | 7th November | Immediate | 2nd January | Immediate |
