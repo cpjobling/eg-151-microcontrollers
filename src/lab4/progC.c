@@ -48,15 +48,13 @@ typedef unsigned char muint8; //char is an 8 bit variable type
 
 //define a delay function
 void short_delay(muint8 value) 
-{
-        
+{      
    int y,t;
    for(y=0;y<=value; y++) {
         for(t=0;t<=20; t++) {
         }
-   }
-  
- }
+   } 
+}
 
 
 #define STUDENT_COUNT  7
@@ -66,21 +64,14 @@ muint8 student_number_2[STUDENT_COUNT] = {1, 9, 7, 3, 1, 6, 1};   //input anothe
 muint8 total_answer;//variable to hold the final answer
 int counter1,counter2;//variable used in incrementing in the main loop
 
-
-
 ///COUNTER PROGRAM TO DISPLAY THE SUMMATION OF STUDENT NUMBER ON LED///
-
 
 #include <hidef.h> /* for EnableInterrupts macro */
 
 #include "derivative.h" /* include peripheral declarations */
 
-
 int i;
 void main (void) {  
-		
-	
-
         SOPT   = 0x00;//System option register..this line of code help to disable the watch dog		
                               // Disable COP = computer operating properly register
         ICGC1 = 0x74;//set up the clock   
@@ -120,9 +111,7 @@ void main (void) {
                 PTFD = total_answer;//send the final answer to the LEDs				
 			 
                 //student number addition code ends here//
-
         } 
- 
 }
 
 
