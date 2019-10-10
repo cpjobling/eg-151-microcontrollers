@@ -11,22 +11,22 @@ PTAD		EQU	$0000			;Port A data register
 PTADD		EQU	$0001			;Port A DDR
 PTBD		EQU	$0002			;Port B data register
 PTBDD		EQU	$0003			;Port B DDR
-PTFD        EQU $000A           ;Port F data register
-PTFDD       EQU $000B           ;Port F DDR
+PTFD       	EQU 	$000A           	;Port F data register
+PTFDD      	EQU 	$000B           	;Port F DDR
 
-ICGC1       EQU $0048           ;Control for system clock
-ICGC2       EQU $0049           ;Control for system clock
+ICGC1       	EQU     $0048           	;Control for system clock
+ICGC2       	EQU     $0049           	;Control for system clock
 
 
 SOPT1		EQU	$1802			;Misc controls inc COP
-PTAPE       EQU $1840           ;Pull ups for port A
+PTAPE       	EQU $1840           		;Pull ups for port A
 
 
 ;***************************************************************************************
 
 
 VARIABLES	EQU	$0080			;Start address in RAM for variables
-PROGRAMME	EQU	$8000			;start address in ROM for programme
+PROGRAMME	EQU	$8000			;Start address in ROM for programme
 STACK		EQU	$0100			;Start address for the top of the stack 
 VECTORS		EQU	$FFFE			;Start address for reset vector
 
@@ -44,7 +44,7 @@ COUNTER		RMB	1			;this byte contains the running count
 
 ;***************************************************************************************
 
-		ORG	PROGRAMME			;Set the programme counter
+		ORG	PROGRAMME		;Set the programme counter
 START
 
 		LDHX	#STACK			;Set the stack pointer
@@ -56,14 +56,14 @@ START
 		STA	SOPT1
 
 
-		LDA     #%01110100      ;Select external crystal
+		LDA     #%01110100      	;Select external crystal
 		STA     ICGC1
 		
 
-		JSR	SHORT_DELAY			;Start up delay for crystal
+		JSR	SHORT_DELAY		;Start up delay for crystal
 
 
-		LDA     #%11111111      ;Set all the pins of port F as outputs
+		LDA     #%11111111      	;Set all the pins of port F as outputs
 		STA     PTFDD
 
 ;***************************************************************************************
@@ -100,11 +100,11 @@ SHORT_DELAY
 		CLR	COUNT0			;Set the inner loop counter to zero
 DEL1
 		DEC	COUNT0			;Decrement the inner loop counter
-		NOP					;This instruction does nothing
+		NOP				;This instruction does nothing
 		BNE	DEL1			;Has the inner loop reached zero yet?
-       		DEC	COUNT1		;If not, back to the label DEL1
+       		DEC	COUNT1			;If not, back to the label DEL1
 		BNE	DEL1			;Otherwise decrement the outer loop
-		RTS					;counter and then back to label DEL1
+		RTS				;counter and then back to label DEL1
 
 
 ;**************************************************************************************		
