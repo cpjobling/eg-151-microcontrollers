@@ -6,28 +6,28 @@
 ;microcontroller. So far, there are no instructions for the intended application!
 ;***************************************************************************************
 
-PTAD		EQU	$0000			;Port A data register
-PTADD		EQU	$0001			;Port A DDR
-PTBD		EQU	$0002			;Port B data register
-PTBDD		EQU	$0003			;Port B DDR
-PTFD        EQU $000A           ;Port F data register
-PTFDD       EQU $000B           ;Port F DDR
+PTAD		EQU	$0000		;Port A data register
+PTADD		EQU	$0001		;Port A DDR
+PTBD		EQU	$0002		;Port B data register
+PTBDD		EQU	$0003		;Port B DDR
+PTFD            EQU     $000A           ;Port F data register
+PTFDD           EQU     $000B           ;Port F DDR
 
-ICGC1       EQU $0048           ;Control for system clock
-ICGC2       EQU $0049           ;Control for system clock
+ICGC1           EQU     $0048           ;Control for system clock
+ICGC2           EQU     $0049           ;Control for system clock
 
 
-SOPT1		EQU	$1802			;Misc controls inc COP
-PTAPE       EQU $1840           ;Pull ups for port A
+SOPT1		EQU	$1802		;Misc controls inc COP
+PTAPE           EQU     $1840           ;Pull ups for port A
 
 
 ;***************************************************************************************
 
 
-VARIABLES	EQU	$0080			;Start address in RAM for variables
-PROGRAMME	EQU	$8000			;start address in ROM for programme
-STACK		EQU	$0100			;Start address for the top of the stack 
-VECTORS		EQU	$FFFE			;Start address for reset vector
+VARIABLES	EQU	$0080		;Start address in RAM for variables
+PROGRAMME	EQU	$8000		;Start address in ROM for programme
+STACK		EQU	$0100		;Start address for the top of the stack 
+VECTORS		EQU	$FFFE		;Start address for reset vector
 
 
 ;***************************************************************************************
@@ -45,7 +45,7 @@ COUNT1	RMB	1			;Variable for outer loop of delay
 
 ;***************************************************************************************
 
-		ORG	PROGRAMME		;Set the programme counter
+		ORG	PROGRAMME	;Set the programme counter
 START
 
 		LDHX	#STACK		;Set the stack pointer
