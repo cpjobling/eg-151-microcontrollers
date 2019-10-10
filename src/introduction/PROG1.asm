@@ -40,7 +40,7 @@ PTAPE           EQU     $1840                   ;Pull ups for port A
 ;***************************************************************************************
 
 VARIABLES	EQU	$0080			;Start address in RAM for variables
-PROGRAMME	EQU	$8000			;start address in ROM for programme
+PROGRAMME	EQU	$8000			;Start address in ROM for programme
 VECTORS		EQU	?????			;Start address for list of vector(s)
 
 
