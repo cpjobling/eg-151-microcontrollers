@@ -26,8 +26,6 @@ Before assembling and running the programmes, a **Code Warrrior** project must b
 
 6. Click on the name of your project. The main edit screen will appear.
 
-## TODO: Add instructions for simulation
-
 # Running your code on hardware
 
 1. Click on "**main.asm**" to open the file.
