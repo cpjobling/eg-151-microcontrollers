@@ -1,4 +1,4 @@
-# Fourth Exercise 4 - a C program for adding up a 6-or-7-digit student number. 
+# Fourth Exercise - a C program for adding up a 6-or-7-digit student number. 
 
 This program ([progC.c](progC.c)) is used to sum up 6-digit student number. When running this program, the LED displays the sum of a 6-digit student number. For example, if your student number is 111111, then the 2nd and 3rd LEDs will be lit to display the decimal number 6. The program is written in C language, and all the heading files to define ports on the demo board are included. The main section in the progC.c for you to make modification is:
 
