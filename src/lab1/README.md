@@ -1,4 +1,4 @@
-# First Exercise
+# First Exercise - A Variable Speed Counter
 
 1. Draw a flow chart of the existing programme [PROG4.asm](https://github.com/cpjobling/eg-151-microcontrollers/blob/master/src/lab1/PROG4.asm).
 2. Answer the questions given in [questions.md](questions.md)
