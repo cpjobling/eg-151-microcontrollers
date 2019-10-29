@@ -24,7 +24,7 @@ WAIT_ADC
 
 Modify above section of the program to have the following output.
 
-![output](output.png)
+![output](fig2.png)
 
 
 When the digital number ranges from 0 to 31, LED1 is lit, when the digital number ranges from 32 to 63, LED2 is lit, and so on.
