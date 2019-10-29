@@ -1,4 +1,4 @@
-# Second lab exercise - indexing and summation
+# Second Exercise - Indexing and Summation
 
 Modify the [PROG5.asm](https://github.com/cpjobling/eg-151-microcontrollers/blob/master/src/lab2/PROG5.asm) to achieve 
 
