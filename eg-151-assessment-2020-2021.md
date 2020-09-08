@@ -14,6 +14,8 @@ September 2020
 
 EG-151 Microcontrollers is a 10-credit module running in the first semester. It introduces the structure and operation of a basic 8-bit microcontroller. It is intended to give you a grounding in the use of microcontrollers by taking you from some simple C-language programmes to a mini-project which addresses a real engineering task. Assessment is by means of laboratory exercises, a class test, and a mini-project.
 
+This document is also available in [PDF form](eg-151-assessment-2020-2021.pdf).
+
 ## Module Aims
 
 EG-151 aims to introduce students to the fundamentals of microcontroller structure and operation and to help them to develop skills in low-level programming language and laboratory work. There will be an introduction to programming in the embedded C-language and an appreciation of low-level programming with assembly code.
@@ -26,9 +28,9 @@ As the University continues to respond to the developing Covid-19 pandemic modul
 
 Module assessment components: Laboratory Introduction (5%) + Laboratory work (20%) + Class test (40%) + Mini-project (35%)
 
-## Canvas site
+## Access to the Digital Learning Platform
 
-Full documentation of practical component for each component are provided in the **Module Content** section of the **My Studies** (Blackboard) site for EG-151. Practice test questions will be made available in the **Assessment and Feedback** section of the module site.
+Access to course resources, on-demand activities, timetabled classes, formative quizzes, discussions and full instructions for the practical exercises for each component are provided in the **[Course Content](https://canvas.swansea.ac.uk/courses/15930/modules) (Modules)** section of the Canvas site for **[2021_EG-151 Microcontrollers](https://canvas.swansea.ac.uk/courses/15930)**. Practice test questions will be made available in the **Assessment and Feedback** section of the Canvas site.
 
 ---
 
@@ -153,7 +155,7 @@ Assessment for the mini-project (report, out of 15)
 
 **Weeks 5 to 7**: Following the laboratory introduction, students will embark on a series of experiments designed to build experience in programming the target microcontroller, and the use of an Integrated Development Environment to debug their programmes. Detailed records of progress will be recorded in a lab diary which will be assessed at the end of the module. There will be opportunities for feedback to be given on lab diaries before they are submitted for final assessment. As social-distancing rules limit access to the electronics laboratory, the lab exercises have been designed to be taken home. Additional support will be available on-line via a scheduled weekly support session attended by module lecturers and demonstrators. This part of the module is worth 20% of the total.
 
-**Week 8**: has been reserved for the Hackathon (TBC). There will be no teaching or labs on EG-151 in week 8.
+**Week 8**: has been reserved for the **Engineering for People** activity. There will be no teaching or labs on EG-151 in week 8.
 
 **Week 9**: Briefing about the Mini-Project.
 
