@@ -12,13 +12,13 @@ September 2020
 
 ## Introduction
 
-EG-151 Microcontrollers is a 10-credit module running in the first semester. It introduces the structure and operation of a basic 8-bit microcontroller. It is intended to give you a grounding in the use of microcontrollers by taking you from some simple C-language programmes to a mini-project which addresses a real engineering task. Assessment is by means of laboratory exercises, a class test, and a mini-project.
+EG-151 Microcontrollers is a 10-credit module running in the first semester. It introduces the structure and operation of a basic 8-bit microcontroller. It is intended to give you a grounding in the use of microcontrollers by taking you from some simple C-language programmes to a mini-project which addresses a real engineering task. Assessment is by means of laboratory exercises recording in a lab diary, a class test, and a mini-project.
 
 This document is also available in [PDF form](eg-151-assessment-2020-2021.pdf).
 
 ## Module Aims
 
-EG-151 aims to introduce students to the fundamentals of microcontroller structure and operation and to help them to develop skills in low-level programming language and laboratory work. There will be an introduction to programming in the embedded C-language and an appreciation of low-level programming with assembly code.
+EG-151 aims to introduce you to the fundamentals of microcontroller structure and operation and to help you to develop skills in low-level programming language and laboratory work. There will be an introduction to programming in the embedded C-language and an appreciation of low-level programming with assembly code.
 
 ## Covid-19 Statement
 
@@ -118,16 +118,25 @@ Marking is done and feedback is given by the chief Electronics technician.
 
 ### Laboratory exercises
 
-There are four laboratory exercises and each is marked out of 5 using the rubric given below. The marking is based on the lab diary submitted by each student.
+There are four laboratory exercises and the assessment will be based on the lab diary submitted by each student.
+The lab diary will be marked on the five criteria listed below using the grading rubric. Only non-submissions will score zero.
 
-**Use Lab Diary Rubric**
 
-| Marks     | Criteria                                                                           |
-| --------- | ---------------------------------------------------------------------------------- |
-| 2 Novice  | Modified program is functioning.                                                   |
-| 3         | Being able to explain the modified section with hint/help from tutor/demonstrator. |
-| 4         | Being able to explain the modified section without prompting.                      |
-| 5 Mastery | Demonstrate complete understanding of the modified program through Q/A             |
+#### Criteria
+
+* **Content** -- A complete record of the experiment or exercise is recorded in the lab diary. The material that is present is complete, accurate and reproducible. 
+* **Tools and Equipment** -- A detailed description of the tools and equipment needed to complete the laboratory experiment or exercises provided.
+* **Analysis and Discussion** -- Adequate analysis and discussion are given for all recorded results. There are no errors in the conclusions drawn. You have demonstrated a clear understanding of all the aspects of the tasks carried out.
+* **Reflection** -- A detailed and thorough reflection is given. The reflection identifies both good and bad experiences in all tasks as well as how improvements can be made for next time where appropriate.
+* **Presentation** -- The lab diary is very well structured and flows logically. The content is easily readable and experiments could easily be reconstructed by reference to the lab diary.
+
+#### Grading rubric
+
+| Exceeds Standard | Meets Standard | Needs Work | Poor |
+| ---------------- | -------------- | -----------| ---- |
+| 4 .              | 3 .            | 2          | 1 .  |
+
+Early feedback on the standards should be sought and facilities will be provided inside Canvas for you to submit up to a maximum of two early lab diary entries for informal assessment and feedback.
 
 ### Mini-project
 
@@ -155,7 +164,7 @@ Assessment for the mini-project (report, out of 15)
 
 **Weeks 5 to 7**: Following the laboratory introduction, students will embark on a series of experiments designed to build experience in programming the target microcontroller, and the use of an Integrated Development Environment to debug their programmes. Detailed records of progress will be recorded in a lab diary which will be assessed at the end of the module. There will be opportunities for feedback to be given on lab diaries before they are submitted for final assessment. As social-distancing rules limit access to the electronics laboratory, the lab exercises have been designed to be taken home. Additional support will be available on-line via a scheduled weekly support session attended by module lecturers and demonstrators. This part of the module is worth 20% of the total.
 
-**Week 8**: has been reserved for the **Engineering for People** activity. There will be no teaching or labs on EG-151 in week 8.
+**Week 8**: has been reserved for the **EG-126 Engineering for People** activity. There will be no teaching or labs on EG-151 in week 8.
 
 **Week 9**: Briefing about the Mini-Project.
 
