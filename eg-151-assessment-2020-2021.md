@@ -77,7 +77,8 @@ The lecture course and the laboratory work will be assessed by an online class t
 
 ### Mini-project
 
-There will be a mini-project which will be assessed by a demonstration of the completed project and a short report.## Delivery Method
+There will be a mini-project which will be assessed by a demonstration of the completed project and a short report. The project is designed to be carried out using the resources of the take-away laboratory kit, however additional components e.g. LEDs, resistors, push buttons and so on can be requested from the staff. A programme will be provided as a starting point, and students will be required to add additional features as suggested in the project briefing.
+
 
 ---
 
@@ -168,14 +169,20 @@ Assessment for the mini-project (report, out of 15)
 
 **Week 9**: Briefing about the Mini-Project.
 
-**Weeks 9 to 12**: Mini-Project. All mini-projects will be based on the same core components. This approach has been very successful in Micromouse, where the starting point is the same for all the teams. This year, each student will be given ... ???
+**Weeks 9 to 12**: MAll mini-projects will be based on the same core components. This
+approach has been very successful in Micromouse, where the starting point is the same for all the
+teams. This year, each student will be provided with a project briefing, which will take the form of a  suggested breadboard layout and an example programme, so that a working system can be constructed. The briefing will outline a number of additional features which can be added to the programme and breadboard, to give additional functionality.
 
-Each Mini Project participant ... ??? 
+
+Each Mini Project participant must return a document containing an explanation of work carried out, a programme listing, and photos of the completed system.
+
+The marking schedule for the Mini-Project may be found earlier in this document.
+
 
 
 **Week 11**: The **class test** carries 40% of the module mark. It will be based on the taught material from the lecture course and experience from the laboratory exercises. Many of the questions will be of the form, “what bits will be set on Port X if the following lines of code are executed” and will require detailed understanding of the operation of the microcontroller. The class test will be delivered electronically via a Canvas Quiz and feedback will therefore be immediate aside from any text or essay questions that will have to be manually marked.
 
-**Week 12**: Assessment of mini-project. ... How done???
+**Week 12**: Assessment of mini-project. As mentioned above, the mini-project will be assessed on the basis of a successful demonstration of the completed project and a short report. The report should contain a reflection on what has been achieved in the mini-project, a well-commented programme listing, and photographs of the completed project. Other evidence may be provided at the discretion of the student.
 
 ## Specific rules for passing this module:
 
