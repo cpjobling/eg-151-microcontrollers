@@ -37,13 +37,9 @@ typedef unsigned char muint8; //char is an 8 bit variable type
 
 //Lets also define proper Names for the Switches in PORT A to control the LEDs
 
-#define SWT1 PTAD_PTAD0
-#define SWT2 PTAD_PTAD1
-
 //2./////////////////////////////////////////////////////////////
-#define SWT3 PTAD_PTAD2//student to declare switch 3 and 4
-#define SWT4 PTAD_PTAD3
-#define SWT5 PTAD_PTAD4
+#define SWT3 PTAD_PTAD3 //student to declare switch 3 and 4
+#define SWT4 PTAD_PTAD2
 ///////////////////////////////////////////////////////////////
 
 //define a delay function
