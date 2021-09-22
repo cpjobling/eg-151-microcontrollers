@@ -6,7 +6,7 @@ Dr C.P. Jobling
 Dr T. Davies
 Dr B.R. Clifford
 
-September 2020
+September 2021
 
 (c) College of Engineering, Swansea University -- All Rights Reserved
 
@@ -14,45 +14,40 @@ September 2020
 
 EG-151 Microcontrollers is a 10-credit module running in the first semester. It introduces the structure and operation of a basic 8-bit microcontroller. It is intended to give you a grounding in the use of microcontrollers by taking you from some simple C-language programmes to a mini-project which addresses a real engineering task. Assessment is by means of laboratory exercises recording in a lab diary, a class test, and a mini-project.
 
-This document is also available in [PDF form](eg-151-assessment-2020-2021.pdf).
+This document is also available in [PDF form](https://github.com/cpjobling/eg-151-microcontrollers/blob/master/eg-151-assessment-2021-2022.pdf).
 
 ## Module Aims
 
-EG-151 aims to introduce you to the fundamentals of microcontroller structure and operation and to help you to develop skills in low-level programming language and laboratory work. There will be an introduction to programming in the embedded C-language and an appreciation of low-level programming with assembly code.
+EG-151 aims to introduce you to laboratory work in Electronic and Electrical Engineering, the fundamentals of microcontroller structure and operation and to help you to develop skills in low-level programming language and project work. There will be a lab introduction, an introduction to programming in the embedded C-language, an appreciation of low-level programming with assembly code, and opportunities to apply what you have learned to a simple microcontroller-driven instrumentation project.
 
 ## Covid-19 Statement
 
-As the University continues to respond to the developing Covid-19 pandemic module information may be subject to change to ensure students receive the best learning experience possible. We will make every effort to engage with students where changes are necessary and any changes will be communicated to students, as soon as possible. Delivery of both teaching and assessment will be blended including live and self-directed activities online and on-campus.
+As the University continues to respond to the ongoing Covid-19 pandemic module information may be subject to change to ensure students receive the best learning experience possible. We will make every effort to engage with students where changes are necessary and any changes will be communicated to students, as soon as possible. Delivery of both teaching and assessment will be blended including live and self-directed activities which can be accessed on-campus and online if necessary.
 
 ## Summary of assessment
 
-Module assessment components: Laboratory Introduction (5%) + Laboratory work (20%) + Class test (40%) + Mini-project (35%)
+Module assessment components: Laboratory Introduction (15%) + Laboratory work (20%) + Class test (30%) + Mini-project (35%)
 
 ## Access to the Digital Learning Platform
 
-Access to course resources, on-demand activities, timetabled classes, formative quizzes, discussions and full instructions for the practical exercises for each component are provided in the **[Course Content](https://canvas.swansea.ac.uk/courses/15930/modules) (Modules)** section of the Canvas site for **[2021_EG-151 Microcontrollers](https://canvas.swansea.ac.uk/courses/15930)**. Practice test questions will be made available in the **Assessment and Feedback** section of the Canvas site.
+Access to course resources, on-demand activities, timetabled classes, formative quizzes, discussions and full instructions for the practical exercises for each component are provided in the **[Course Content](https://canvas.swansea.ac.uk/courses/25259/modules) (Modules)** section of the Canvas site for **[2122_EG-151 Microcontrollers](https://canvas.swansea.ac.uk/courses/25259)**. Practice test questions will be made available in the **Assessment and Feedback** section of the Canvas site.
 
 ---
 
 ## Module Delivery Method
 
-EG-151 will employ a blended approach to delivery using the Canvas Digital Learning Platform for live and self-directed online activity, with live and self-directed on-campus activities each week.  Students may also have the opportunity to engage with online versions of sessions delivered on-campus
+EG-151 will employ a blended approach to delivery using the Canvas Digital Learning Platform for live and self-directed online activity, with live and self-directed on-campus activities each week.  Students may also have the opportunity to engage with online versions of sessions delivered on-campus should circumstances require this.
 
 ### Laboratory Introduction
 
-Laboratory sessions during the first two weeks of term will be used for a laboratory introduction exercise.
+Laboratory sessions during the first three weeks of term will be used for a laboratory introduction exercise.
 The laboratory introduction is COMPULSORY and must be passed if a student is to work in the laboratory.
 Components of the laboratory introduction are as follows:
 
 * Health and safety and safe working during the COVID pandemic
 * Breadboard construction exercise
-
-The following compulsory activities may need to be deferred until Semester 2
-
-* Circuit Simulation using National Instruments Multisim
+* Circuit simulation exercise using National Instruments Multisim
 * Soldering exercise
-
-Each component will be assessed individually on a pass-fail basis, and the laboratory introduction is worth 5% of the whole module.
 
 ### On-demand learning activities
 
@@ -62,18 +57,27 @@ Knowledge and understanding will be increased via retrieval practice based on we
 
 Live on-line activities: there will be one hour a week online examples class for group activities in support of the lecture course and designed to address the areas of particular difficulty that have been identified by the formative tests.
 
+### Laboratory induction
+
+The maximum mark for laboratory introduction is 15 awarded as follows:
+
+* Testing of circuit using plug-in breadboard and National Multisim and answers to questions at the end of the laboratory introduction script – Max 10 marks - Assessed by Lab Diary.
+* Construction of Tic-Tac box continuity tester – Max 5 marks.
+
+Marking is done and feedback is given by the chief Electronics technician.
+
 #### On-campus laboratories
 
-There will be one three-hour lab session per week supplemented by a two-hour on-line on-demand support session.
+There will be two two-hour lab sessions per week.
 
-The lab exercises have been designed to be taken home and can be done completely off-campus if preferred.
+The lab exercises have been designed to be taken home and can be done completely off-campus if necessary.
 
 The laboratory work will be assessed by means of a lab diary worth 20%
 of the module marks. The lab diary is to be submitted via TurnitIn in November.
 
 ### Class test
 
-The lecture course and the laboratory work will be assessed by an online class test worth 40%.
+The lecture course and the laboratory work will be assessed by an online class test worth 30%.
 
 ### Mini-project
 
@@ -102,14 +106,11 @@ The following AHEP 3 Programme Learning outcomes [1] at Partial CEng (p) are par
 
 ### Laboratory introduction
 
-The laboratory introduction is assessed on a pass/fail basis according to the following:
+The laboratory introduction is assessed according to the following:
 
 * Health and safety and safe working during the COVID pandemic.
 * Breadboard construction exercise.
 * Answers to questions at the end of the laboratory introduction script.
-
-Additional components may be deferred to the second semester
-
 - Testing of circuit using plug-in breadboard and National Multisim.
 - Construction of Tic-Tac box continuity tester.
 
@@ -159,25 +160,29 @@ Assessment for the mini-project (report, out of 15)
 
 ## Timeline for EG-151
 
-**Weeks 2-3**: Laboratory introduction. Students enrolling on the Electrical and Electronic degree programmes come from a wide range of backgrounds. Some students will have taken a technology based course in their previous education, and in consequence they will have some familiarity with electronic components and embedded microcontrollers. Other students will have little or no experience of practical electronics. The laboratory introduction gives everybody an experience of using electronic components in a practical circuit, use of laboratory instruments, and an introduction to simulation software. The laboratory introduction starts in week 2 and will continue for the first two weeks of teaching. It will make use of the on-campus timetabled lab slots. Assessment of the laboratory introduction is partly “on the spot” in the case of the Tic-Tac construction. The lab diary will be assessed at the end of the exercise. The laboratory introduction is worth 5% of the module.
+**Weeks 2-4**: Laboratory introduction. Students enrolling on the Electrical and Electronic degree programmes come from a wide range of backgrounds. Some students will have taken a technology based course in their previous education, and in consequence they will have some familiarity with electronic components and embedded microcontrollers. Other students will have little or no experience of practical electronics. The laboratory introduction gives everybody an experience of using electronic components in a practical circuit, use of laboratory instruments, and an introduction to simulation software. The laboratory introduction starts in week 2 and will continue for the first two weeks of teaching. It will make use of the on-campus timetabled lab slots. Assessment of the laboratory introduction is partly “on the spot” in the case of the Tic-Tac construction. The lab diary will be assessed at the end of the exercise. The laboratory introduction is worth 15% of the module.
 
 **Weeks 2 to 12**: On-demand materials and live timetabled on-line sessions. **There is one lecture per week, starting at 12 noon on Monday afternoons. This lecture includes the architecture of a typical 8-bit microcontroller, and how the internal registers permit different programming structures. Initially examples will be in C-language, but examples in assembly language, needed to understand the detailed working of the microcontroller hardware, will be given as the module progresses. Review and preparation for the class test will be given in Week 10; feedback on the class test will be given in Week 12.
 
-**Weeks 2 to 7**: Following the laboratory introduction, students will embark on a series of experiments designed to build experience in programming the target microcontroller, and the use of an Integrated Development Environment to debug their programmes. Detailed records of progress will be recorded in a lab diary which will be assessed at the end of the module. There will be opportunities for feedback to be given on lab diaries before they are submitted for final assessment. As social-distancing rules limit access to the electronics laboratory, the lab exercises have been designed to be taken home. Additional support will be available on-line via a scheduled weekly support session attended by module lecturers and demonstrators. This part of the module is worth 20% of the total.
+**Weeks 3 to 8**: Following the laboratory introduction, students will embark on a series of experiments designed to build experience in programming the target microcontroller, and the use of an Integrated Development Environment to debug their programmes. Detailed records of progress will be recorded in a lab diary which will be assessed at the end of the module. There will be opportunities for feedback to be given on lab diaries before they are submitted for final assessment. As social-distancing rules limit access to the electronics laboratory, the lab exercises have been designed to be taken home. Additional support will be available on-line via a scheduled weekly support session attended by module lecturers and demonstrators. This part of the module is worth 20% of the total.
 
-**Week 8**: has been reserved for the **EG-126 Engineering for People** activity. There will be no teaching or labs on EG-151 in week 8.
+**Week 5**: has been reserved for the **EG-133 Engineering for People Hackathon** activity. There will be no teaching or labs on EG-151 in week 5.
 
 **Week 9**: Briefing about the Mini-Project.
 
-**Weeks 9 to 12**: All mini-projects will be based on the same core components. This
-approach has been very successful in Micromouse, where the starting point is the same for all the
-teams. This year, each student will be provided with a project briefing, which will take the form of a  suggested breadboard layout and an example programme, so that a working system can be constructed. The briefing will outline a number of additional features which can be added to the programme and breadboard, to give additional functionality.
+**Weeks 9 to 12**: The mini-project carries 35% of the marks for this module.
 
-Each Mini Project participant must return a document containing an explanation of work carried out, a programme listing, and photos of the completed system.
+All mini-projects will be based on the same core components. This approach has been very successful in Micromouse, where the starting point is the same for all the teams. This year, each student will be provided with a project briefing, which will take the form of a  suggested breadboard layout and an example programme, so that a working system can be constructed. his year, each Mini Project team will be given a plug-in breadboard, a HCS08QG8 microcontroller and a LCD alphanumeric display, capable of two lines of 16 characters. A suggested layout will be provided, showing how to connect the microcontroller to the LCD using the minimum number of pins. A demonstration programme will also be provided to show how the LCD can be updated with ASCII characters.
+
+Each Mini Project team must decide on an application for these core components, for example a digital multimeter, a frequency meter, an ultrasonic rangefinder, and so on. In each case, additional hardware and firmware must be connected to the core components to achieve the chosen application.
+
+Starting from the demonstration programme, it is possible to write a programme which converts numeric data into ASCII characters. The data could come from the built-in ADC, or from some form of sensor such as an ultrasonic rangefinder. Each team will decide on the method of converting and presenting the information on the LCD.
+
+An alternative project will be provided for students who are registered for temporary online teaching.
 
 The marking schedule for the Mini-Project may be found earlier in this document.
 
-**Week 11**: The **class test** carries 40% of the module mark. It will be based on the taught material from the lecture course and experience from the laboratory exercises. Many of the questions will be of the form, “what bits will be set on Port X if the following lines of code are executed” and will require a detailed understanding of the operation of the microcontroller. The class test will be delivered electronically via a Canvas Quiz and feedback will therefore be immediate aside from any text or essay questions that will have to be manually marked.
+**Week 11**: The **class test** carries 30% of the module mark. It will be based on the taught material from the lecture course and experience from the laboratory exercises. Many of the questions will be of the form, “what bits will be set on Port X if the following lines of code are executed” and will require a detailed understanding of the operation of the microcontroller. The class test will be delivered electronically via a Canvas Quiz and feedback will therefore be immediate aside from any text or essay questions that will have to be manually marked.
 
 **Week 12**: Assessment of mini-project. As mentioned above, the mini-project will be assessed on the basis of a successful demonstration of the completed project and a short report. The report should contain a reflection on what has been achieved in the mini-project, a well-commented programme listing, and photographs of the completed project. Other evidence may be provided at the discretion of the student.
 

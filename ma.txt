@@ -1,0 +1,5 @@
+# EG-151 Coursework Brief
+## Model Answers
+
+Full rubrics are provided in the assignment briefs. There are no model answers as this is the first time the project has been run with the Arduino Nano and in the form of a Take-Home Laboratory.
+
