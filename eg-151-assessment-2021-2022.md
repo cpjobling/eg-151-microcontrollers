@@ -22,7 +22,7 @@ EG-151 aims to introduce you to laboratory work in Electronic and Electrical Eng
 
 ## Covid-19 Statement
 
-As the University continues to respond to the ongoing Covid-19 pandemic module information may be subject to change to ensure students receive the best learning experience possible. We will make every effort to engage with students where changes are necessary and any changes will be communicated to students, as soon as possible. Delivery of both teaching and assessment will be blended including live and self-directed activities which can be accessed on-campus and online if necessary.
+As the University continues to respond to the ongoing Covid-19 pandemic module information may be subject to change to ensure that you receive the best learning experience possible. We will make every effort to engage with you where changes are necessary and any changes will be communicated to you, as soon as possible. Delivery of both teaching and assessment will be blended including live and self-directed activities which can be accessed on-campus and online if necessary.
 
 ## Summary of assessment
 
@@ -36,12 +36,12 @@ Access to course resources, on-demand activities, timetabled classes, formative 
 
 ## Module Delivery Method
 
-EG-151 will employ a blended approach to delivery using the Canvas Digital Learning Platform for live and self-directed online activity, with live and self-directed on-campus activities each week.  Students may also have the opportunity to engage with online versions of sessions delivered on-campus should circumstances require this.
+EG-151 will employ a blended approach to delivery using the Canvas Digital Learning Platform for live and self-directed online activity, with live and self-directed on-campus activities each week.  You may also have the opportunity to engage with online versions of sessions delivered on-campus should circumstances require this.
 
 ### Laboratory Introduction
 
 Laboratory sessions during the first three weeks of term will be used for a laboratory introduction exercise.
-The laboratory introduction is COMPULSORY and must be passed if a student is to work in the laboratory.
+The laboratory introduction is COMPULSORY and must be passed before you can continue to work in the laboratory.
 Components of the laboratory introduction are as follows:
 
 * Health and safety and safe working during the COVID pandemic
@@ -81,7 +81,7 @@ The lecture course and the laboratory work will be assessed by an online class t
 
 ### Mini-project
 
-There will be a mini-project which will be assessed by a demonstration of the completed project and a short report. The project is designed to be carried out using the resources of the take-away laboratory kit, however additional components e.g. LEDs, resistors, push buttons and so on can be requested from the staff. A programme will be provided as a starting point, and students will be required to add additional features as suggested in the project briefing.
+There will be a mini-project which will be assessed by a demonstration of the completed project and a short report. The project is designed to be carried out using the resources of the take-away laboratory kit, however additional components e.g. LEDs, resistors, push buttons and so on can be requested from the staff. A programme will be provided as a starting point, and you will be required to add additional features as suggested in the project briefing.
 
 
 ---
@@ -120,7 +120,7 @@ Marking is done and feedback is given by the chief Electronics technician.
 
 ### Laboratory exercises
 
-There are four laboratory exercises and the assessment will be based on the lab diary submitted by each student.
+There are four laboratory exercises and the assessment will be based on the lab diary you submit to Canvas.
 The lab diary will be marked on the five criteria listed below using the grading rubric. Only non-submissions will score zero.
 
 
@@ -164,7 +164,7 @@ Assessment for the mini-project (report, out of 15)
 
 **Weeks 2 to 12**: On-demand materials and live timetabled on-line sessions. **There is one lecture per week, starting at 12 noon on Monday afternoons. This lecture includes the architecture of a typical 8-bit microcontroller, and how the internal registers permit different programming structures. Initially examples will be in C-language, but examples in assembly language, needed to understand the detailed working of the microcontroller hardware, will be given as the module progresses. Review and preparation for the class test will be given in Week 10; feedback on the class test will be given in Week 12.
 
-**Weeks 3 to 8**: Following the laboratory introduction, students will embark on a series of experiments designed to build experience in programming the target microcontroller, and the use of an Integrated Development Environment to debug their programmes. Detailed records of progress will be recorded in a lab diary which will be assessed at the end of the module. There will be opportunities for feedback to be given on lab diaries before they are submitted for final assessment. As social-distancing rules limit access to the electronics laboratory, the lab exercises have been designed to be taken home. Additional support will be available on-line via a scheduled weekly support session attended by module lecturers and demonstrators. This part of the module is worth 20% of the total.
+**Weeks 3 to 8**: Following the laboratory introduction, you will embark on a series of experiments designed to build experience in programming the target microcontroller, and the use of an Integrated Development Environment to debug their programmes. Detailed records of progress will be recorded in a lab diary which will be assessed at the end of the module. There will be opportunities for feedback to be given on lab diaries before they are submitted for final assessment. As social-distancing rules limit access to the electronics laboratory, the lab exercises have been designed to be taken home. Additional support will be available on-line via a scheduled weekly support session attended by module lecturers and demonstrators. This part of the module is worth 20% of the total.
 
 **Week 5**: has been reserved for the **EG-133 Engineering for People Hackathon** activity. There will be no teaching or labs on EG-151 in week 5.
 
@@ -172,19 +172,19 @@ Assessment for the mini-project (report, out of 15)
 
 **Weeks 9 to 12**: The mini-project carries 35% of the marks for this module.
 
-All mini-projects will be based on the same core components. This approach has been very successful in Micromouse, where the starting point is the same for all the teams. This year, each student will be provided with a project briefing, which will take the form of a  suggested breadboard layout and an example programme, so that a working system can be constructed. his year, each Mini Project team will be given a plug-in breadboard, a HCS08QG8 microcontroller and a LCD alphanumeric display, capable of two lines of 16 characters. A suggested layout will be provided, showing how to connect the microcontroller to the LCD using the minimum number of pins. A demonstration programme will also be provided to show how the LCD can be updated with ASCII characters.
+All mini-projects will be based on the same core components. This approach has been very successful in Micromouse, where the starting point is the same for all the teams. This year, you will be provided with a project briefing, which will take the form of a  suggested breadboard layout and an example programme, so that a working system can be constructed. his year, each Mini Project team will be given a plug-in breadboard, a HCS08QG8 microcontroller and a LCD alphanumeric display, capable of two lines of 16 characters. A suggested layout will be provided, showing how to connect the microcontroller to the LCD using the minimum number of pins. A demonstration programme will also be provided to show how the LCD can be updated with ASCII characters.
 
 Each Mini Project team must decide on an application for these core components, for example a digital multimeter, a frequency meter, an ultrasonic rangefinder, and so on. In each case, additional hardware and firmware must be connected to the core components to achieve the chosen application.
 
 Starting from the demonstration programme, it is possible to write a programme which converts numeric data into ASCII characters. The data could come from the built-in ADC, or from some form of sensor such as an ultrasonic rangefinder. Each team will decide on the method of converting and presenting the information on the LCD.
 
-An alternative project will be provided for students who are registered for temporary online teaching.
+An alternative project will be provided for you if  you are registered for temporary online teaching.
 
 The marking schedule for the Mini-Project may be found earlier in this document.
 
 **Week 11**: The **class test** carries 30% of the module mark. It will be based on the taught material from the lecture course and experience from the laboratory exercises. Many of the questions will be of the form, “what bits will be set on Port X if the following lines of code are executed” and will require a detailed understanding of the operation of the microcontroller. The class test will be delivered electronically via a Canvas Quiz and feedback will therefore be immediate aside from any text or essay questions that will have to be manually marked.
 
-**Week 12**: Assessment of mini-project. As mentioned above, the mini-project will be assessed on the basis of a successful demonstration of the completed project and a short report. The report should contain a reflection on what has been achieved in the mini-project, a well-commented programme listing, and photographs of the completed project. Other evidence may be provided at the discretion of the student.
+**Week 12**: Assessment of mini-project. As mentioned above, the mini-project will be assessed on the basis of a successful demonstration of the completed project and a short report. The report should contain a reflection on what has been achieved in the mini-project, a well-commented programme listing, and photographs of the completed project. Other evidence may be provided at the your discretion.
 
 ## Specific rules for passing this module:
 
