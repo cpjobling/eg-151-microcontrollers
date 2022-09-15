@@ -54,7 +54,3 @@ dkms.conf
 # MacOS stuff
 .DS_Store
 
-# Generated Documentation Files
-*.pdf
-*.html
-
