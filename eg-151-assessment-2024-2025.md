@@ -9,7 +9,7 @@ September 2024
 
 (c) College of Engineering, Swansea University -- All Rights Reserved
 
-This document is available as a PDF; [Assessment and Feedback Brief](https://github.com/cpjobling/eg-151-microcontrollers/blob/master/eg-151-assessment-2024-2025.pdf) [PDF].
+This document is available as a PDF: [Assessment and Feedback Brief](https://github.com/cpjobling/eg-151-microcontrollers/blob/master/eg-151-assessment-2024-2025.pdf) [PDF].
 
 ## Course Delivery
 
@@ -210,6 +210,8 @@ Lab support staff (lecturers, technicians and teaching assistants) will periodic
 
 The lab attendance record will be confirmed at the end of the module using evidence from the lab entry card swipe system.
 
+---
+
 #### Assessment of the Laboratory introduction
 
 [Canvas page [Laboratory Introduction](https://canvas.swansea.ac.uk/courses/52902/modules/376450)]
@@ -345,6 +347,8 @@ Assessment for the mini-project (report, out of 20)
 This module is assessed by a combination of Class Tests and practical assessments.
 
 For the practical assessment marks to count, you must achieve 40% in the Class Test. If you achieve less than 40% in the Class Test, then the module mark will be just the Class Test mark. You will have one attempt to redeem a failure in the class test before the end of semester 1.
+
+---
 
 ### Failure redemption
 
