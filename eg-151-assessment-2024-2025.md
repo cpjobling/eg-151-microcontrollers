@@ -9,6 +9,8 @@ September 2024
 
 (c) College of Engineering, Swansea University -- All Rights Reserved
 
+This document is available as a PDF; [Assessment and Feedback Brief](https://github.com/cpjobling/eg-151-microcontrollers/blob/master/eg-151-assessment-2024-2025.pdf) [PDF].
+
 ## Course Delivery
 
 [Canvas module - [Welcome: Begin Here](https://canvas.swansea.ac.uk/courses/52902/modules#module_376447)]
@@ -19,9 +21,7 @@ September 2024
 
 ***EG-151 Microcontrollers is a 10-credit module running in the first semester. It introduces the structure and operation of a basic 8-bit microcontroller. It is intended to give you a grounding in the use of microcontrollers by taking you from some simple C-language programs to a mini-project that addresses a real engineering task. Assessment is by means of laboratory exercises recording in a lab diary, a class test, and a mini-project.***
 
-This link to the [EG-151 Microcontrollers](https://intranet.swan.ac.uk/catalogue/default.asp?type=moddetail&dept=EEEG&mod=EG-151&ayr=24/25&psl=TB1&detailOnly=false) catalogue page provides details of the module's: *Synopsis*, *Syllabus*, *Learning Outcomes* and other vital information.
-
-A description of the module aims, delivery method and assessment plan are to be found in the following pages and are summarised in the [Assessment and Feedback Brief](https://github.com/cpjobling/eg-151-microcontrollers/blob/master/eg-151-assessment-2024-2025.pdf) [PDF].
+This link to the [EG-151 Microcontrollers](https://intranet.swan.ac.uk/catalogue/default.asp?type=moddetail&dept=EEEG&mod=EG-151&ayr=24/25&psl=TB1&detailOnly=false) catalogue page provides details of the module's: *Synopsis*, *Syllabus*, *Learning Outcomes* and other vital information. Use the **View Full Module Details as a PDF** button to see the complete module descriptor.
 
 Because it is important that you read everything in the **Course Overview**, we have used Canvas *requirements* and *pre-requisites* to control access to the remaining course content. You should visit all sections of the [Course Overview module](https://canvas.swansea.ac.uk/courses/52902/pages/course-overview-2024-slash-2025?module_item_id=2882045), preferably in advance of the first laboratory session on Thursday 3rd October. You need to have viewed each page, marked some pages as done and contribute to the welcome discussion before you can proceed to the lab introduction module.
 
@@ -37,9 +37,9 @@ EG-151 aims to introduce you to laboratory work in Electronic and Electrical Eng
 
 [Canvas page - [Summary of assessment](https://canvas.swansea.ac.uk/courses/52902/pages/summary-of-assessment?module_item_id=2258004)]
 
-Module assessment components: Laboratory Introduction (15%) + Laboratory work (20%) + Class test (35%) + Mini-project (30%)
+Module assessment components:  Lab training requirement (P/F) + Laboratory Introduction (15%) + Laboratory work (20%) + Class test (35%) + Mini-project (30%).
 
-Full details of the assessment and feedback arrangements for this module are to be found on Canvas in the [Assessment and Feedback](https://canvas.swansea.ac.uk/courses/52902/modules#module_305533)]
+Full details of the assessment and feedback arrangements for this module are to be found on Canvas in the [Assessment and Feedback](https://canvas.swansea.ac.uk/courses/52902/modules#module_376448) module.
 
 ## Access to the Digital Learning Platform
 
@@ -65,13 +65,21 @@ The resources for the lecture course are arranged in modules by week and start h
 
 #### Laboratory activities
 
-There will be two two-hour lab sessions per week on Thursdays and Friday 10:00-12:00. Lab sessions are compulsory, and should you need a Supplementary (resit) assessment in August you must have achieved 80% attendance.
+##### Laboratory training requirements
+ 
+It is an accreditation requirement that you have demonstrated competence in **C12 Workshop and practical skills** (Note 1). To pass the module you **must** pass the laboratory training requirements.
+  
+ In order to pass the laboratory training requirements, you are required to keep a full record of lab attendance and record the completion date of each lab exercise in your lab diary. This record will be regularly evaluated and signed off by the laboratory support staff during the lab sessions. 
+ 
+ There will be two COMPULSORY two-hour lab sessions per week on Thursdays and Friday 10:00-12:00. The department requires that each student has achieved at least 80% attendance (18 of 22 available sessions) in the lab. Catch-up sessions are provided for labs missed for valid reasons.
+ 
 
 ##### Laboratory introduction
 
 Laboratory sessions during the first three weeks of term will be used for a laboratory introduction exercise.
 
-The laboratory introduction is COMPULSORY and must be passed before you can continue to work in the laboratory.
+The laboratory introduction **must** be passed before you can continue to work in the laboratory.
+
 Components of the laboratory introduction are as follows:
 
 * Health and safety and safe working in the electronics laboratory
@@ -90,7 +98,7 @@ The course materials and guidance for the lab introduction module starts here: [
 
 ##### Microcontroller programming laboratories
 
-There will be two two-hour microntroller programming lab sessions per week, and these will begin once the lab introduction has been completed at the end of week 3 (University week 4).
+There will be two two-hour microntroller programming lab sessions per week, and these will begin once the lab introduction has been completed at the end of week 3.
 
 The laboratory work will be assessed by means of a lab diary worth 20% of the module marks. The lab diary is to be updated during the lab sessions and will be submitted via Canvas in November. 
 
@@ -150,6 +158,7 @@ The information below provides an outline of the assessment timetable for this c
 
 | **Name of Assessment** | **Assessment Method/s** | **Weighting** | **Submission Dates** | **Release Dates** |
 |------------------------|-------------------------|---------------|----------------------|-------------------|
+| Laboratory Training Requirement | Validation of training and attendance record. Pass/Fail. | 0%  | 16:00 Friday 13th December | Instant feedback |
 | Laboratory Introduction | Lab diary, Canvas Quiz, Technical Inspection | 15% | 16:00 Friday 25th October | Friday 15th November |
 | Microcontrollers Laboratories |  Laboratory Diary | 20% | 16:00 Friday 22nd November | Friday 13th December |
 | Class Test | Invigilated Canvas Quiz | 35% | 11:00-13:00 Tuesday 3rd December | Instant feedback |
@@ -193,6 +202,14 @@ The following AHEP 4 Programme Learning outcomes [1] at Partial CEng (p) are par
 
 ### Assessment details
 
+#### Laboratory training requirements
+
+Students will be expected to maintain a lab attendance and lab exercise completion record. A table for this purpose is provided in the Lab Diary template. 
+
+Lab support staff (lecturers, technicians and teaching assistants) will periodically verify the lab exercise completion record during the lab sessions using the  [lab training record rubric](https://canvas.swansea.ac.uk/courses/52902/rubrics/6373) on Canvas.
+
+The lab attendance record will be confirmed at the end of the module using evidence from the lab entry card swipe system.
+
 #### Assessment of the Laboratory introduction
 
 [Canvas page [Laboratory Introduction](https://canvas.swansea.ac.uk/courses/52902/modules/376450)]
@@ -220,7 +237,7 @@ Marking is done and feedback is given jointly by the module coordinator and the 
 
 ---
 
-### Microcontroller programming laboratory exercises
+#### Microcontroller programming laboratory exercises
 
 [Canvas page - [Microcontroller programming laboratory exercises](https://canvas.swansea.ac.uk/courses/52902/modules#module_376463)]
 
@@ -230,7 +247,7 @@ There are five laboratory exercises and the assessment will be based on the lab 
 The lab diary will be marked on the five criteria listed below using the grading rubric. Only non-submissions will score zero.
 
 
-#### Criteria
+##### Criteria
 
 * **Content** -- A complete record of the experiment or exercise is recorded in the lab diary. The material that is present is complete, accurate and reproducible. 
 * **Tools and Equipment** -- A detailed description of the tools and equipment needed to complete the laboratory experiment or exercises provided.
@@ -238,7 +255,7 @@ The lab diary will be marked on the five criteria listed below using the grading
 * **Reflection** -- A detailed and thorough reflection is given. The reflection identifies both good and bad experiences in all tasks as well as how improvements can be made for next time where appropriate.
 * **Presentation** -- The lab diary is very well structured and flows logically. The content is easily readable and experiments could easily be reconstructed by reference to the lab diary.
 
-#### Grading rubric
+##### Grading rubric
 
 | Exceeds Standard | Meets Standard | Needs Work | Poor |
 | ---------------- | -------------- | -----------| ---- |
@@ -256,7 +273,7 @@ Early feedback on the standards should be sought and facilities will be provided
 
 ---
 
-### Class test
+#### Class test
 
 A timed Canvas test on materials covered in the lectures and laboratory exercises will be held between 11:00-13:00 on Tuesday 3rd December (PC Lab Y Tywni 104). Practice and revision for the class test are the weekly Canvas quizzes which have been provided for retrieval practice and there will be a revision lecture before the test and a review lecture after it.
 
@@ -264,7 +281,7 @@ The class test is automatically marked.
 
 As you must score at least 40% on the class test for the other components to count, there will be one resit of the class test allowed before the end of term.
 
-#### Class Test Instructions
+##### Class Test Instructions
 
 [Reproduced from the [EG-151 Class Test](https://canvas.swansea.ac.uk/courses/52902/assignments/407468)]
 
@@ -292,7 +309,7 @@ Once you have completed your assessment, please submit the attempt, log off and 
 
 ---
 
-### Mini-project
+#### Mini-project
 
 [Canvas page - [Mini Project Assessment](https://canvas.swansea.ac.uk/courses/52902/modules#module_376465)]
 
@@ -325,7 +342,16 @@ Assessment for the mini-project (report, out of 20)
 
 ### Specific rules for passing this module:
 
-This module is assessed by a combination of a class test and practical assessment. In order for the practical assessment marks to count, you must achieve at least 40% in the class test. You will have one attempt to redeem a failure in the class test before the end of semester 1. If you achieve less than 40% in the class test or the resit, then the module mark will be just the class test mark and you will be required to take another test in August.
+This module is assessed by a combination of Class Tests and practical assessments.
+
+For the practical assessment marks to count, you must achieve 40% in the Class Test. If you achieve less than 40% in the Class Test, then the module mark will be just the Class Test mark. You will have one attempt to redeem a failure in the class test before the end of semester 1.
+
+### Failure redemption
+
+Failure redemption of this module will be by online Canvas test only (100%).
+
+The failure redemption is only available to students who have passed the lab training requirements.
+
 
 ---
 
