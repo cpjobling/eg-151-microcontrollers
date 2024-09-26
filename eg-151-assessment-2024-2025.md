@@ -37,7 +37,7 @@ EG-151 aims to introduce you to laboratory work in Electronic and Electrical Eng
 
 [Canvas page - [Summary of assessment](https://canvas.swansea.ac.uk/courses/52902/pages/summary-of-assessment?module_item_id=2258004)]
 
-Module assessment components:  Lab training requirement (P/F) + Laboratory Introduction (15%) + Laboratory work (20%) + Class test (35%) + Mini-project (30%).
+Module assessment components:  **Laboratory Training Requirement** (Pass/Fail) + **Laboratory Introduction** (15%) + **Laboratory Work** (20%) + **Class Test** (35%) + **Mini-Project** (30%).
 
 Full details of the assessment and feedback arrangements for this module are to be found on Canvas in the [Assessment and Feedback](https://canvas.swansea.ac.uk/courses/52902/modules#module_376448) module.
 
@@ -130,7 +130,7 @@ The lecture course and the laboratory work will be assessed by an online class t
 
 **Weeks 1 to 11**: On-demand materials and live timetabled online sessions. **There is one lecture per week, starting at 1 pm on Friday afternoons. This lecture includes the architecture of a typical 8-bit microcontroller, and how the internal registers permit different programming structures. Initially, examples will be in the C-language, but examples in assembly language, needed to understand the detailed working of the microcontroller hardware, will be given as the module progresses. Review and preparation for the class test will be given in Week 10; feedback on the class test will be given in Week 12.
 
-**Weeks 2 to 7**: Following the laboratory introduction, you will embark on a series of experiments designed to build experience in programming the target microcontroller, and the use of an Integrated Development Environment to debug their programs. Detailed records of progress will be recorded in a lab diary which will be assessed at the end of the module. There will be an opportunity for feedback to be given on a lab diary record of a programming exercise before the complete lab diary is submitted for final assessment. Additional support will be available from the module lecturers, technicians and demonstrators during the lab sessions. This part of the module is worth 20% of the total.
+**Weeks 3 to 7**: Following the laboratory introduction, you will embark on a series of experiments designed to build experience in programming the target microcontroller, and the use of an Integrated Development Environment to debug their programs. Detailed records of progress will be recorded in a lab diary which will be assessed at the end of the module. There will be an opportunity for feedback to be given on a lab diary record of a programming exercise before the complete lab diary is submitted for final assessment. Additional support will be available from the module lecturers, technicians and demonstrators during the lab sessions. This part of the module is worth 20% of the total.
 
 **Week 8**: Briefing about the Mini Project.
 
